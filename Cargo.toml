@@ -5,6 +5,7 @@ license = "MIT"
 version = "0.1.0"
 authors = ["dangreco <dan.greco@live.com>"]
 edition = "2018"
+repository = "https://github.com/dangreco/edgy"
 
 [dependencies]
 image = "0.21.0"
