@@ -1,5 +1,11 @@
-# Edgy
+# edgy
 A simple program to apply the Sobel edge detection operator to any given image or directory of images.
+
+# Installation 
+The process to install is pretty standard:
+```bash
+$ cargo install edgy
+```
 
 # Usage
 ```
