@@ -1,4 +1,4 @@
-# Edgy
+# edgy
 A simple program to apply the Sobel edge detection operator to any given image or directory of images.
 
 # Installation 
