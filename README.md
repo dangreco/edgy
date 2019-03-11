@@ -19,11 +19,11 @@ OPTIONS:
 ```
 # Examples
 
-!(Pillow Man)[https://raw.githubusercontent.com/dangreco/edgy/master/examples/PillowManEx.jpg]
+![Pillow Man](https://raw.githubusercontent.com/dangreco/edgy/master/examples/PillowManEx.jpg)
 
-!(Donald Glover)[https://raw.githubusercontent.com/dangreco/edgy/master/examples/DonaldGloverEx.jpg]
+![Donald Glover](https://raw.githubusercontent.com/dangreco/edgy/master/examples/DonaldGloverEx.jpg)
 
-!(Pillow Man)[https://raw.githubusercontent.com/dangreco/edgy/master/examples/DetourEx.jpg]
+![Detour Sign](https://raw.githubusercontent.com/dangreco/edgy/master/examples/DetourEx.jpg)
 
 # Contributions
 If you want to improve anything, go ahead and open up a pull request.
