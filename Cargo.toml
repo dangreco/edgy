@@ -1,0 +1,10 @@
+[package]
+name = "edgy"
+version = "0.1.0"
+authors = ["dangreco <dan.greco@live.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.21.0"
+pbr = "1.0.1"
+clap = {version = "2.32", features = ["yaml"]}

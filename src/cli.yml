@@ -1,0 +1,30 @@
+name: edgy
+version: "1.0"
+author: Daniel G. <dan.greco@live.com>
+about: Applys Sobel edge detection to given image.
+args:
+    - INPUT:
+        short: i
+        long: input
+        value_name: FILE
+        help: Sets the input image file to use
+        takes_value: true
+        required: true
+    - OUTPUT:
+        short: o
+        long: output
+        value_name: FILE
+        help: Sets the output image file to use
+        takes_value: true
+        required: true
+    - BLUR:
+        short: b
+        long: blur
+        value_name: FACTOR
+        help: Increases blur factor by <FACTOR>
+        takes_value: true
+    - MULTIPLE:
+        short: m
+        long: multiple
+        help: Uses input/output as directories; applies sobel operator to every image in that directory.
+
