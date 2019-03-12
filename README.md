@@ -1,4 +1,7 @@
-![Edgy](https://raw.githubusercontent.com/dangreco/edgy/master/logo.png)
+<img src="https://raw.githubusercontent.com/dangreco/edgy/master/logo.png" width="30%">
+<br/>
+<br/>
+
 
 [![Latest version](https://img.shields.io/crates/v/edgy.svg)](https://crates.io/crates/edgy)
 [![License](https://img.shields.io/crates/l/edgy.svg)]()
