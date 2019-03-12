@@ -74,9 +74,16 @@ fn process_multiple(source_dir: String, output_dir: String, blur_modifier: i32)
     let mut bar = ProgressBar::new(total);
 
     for path in paths {
-        let path_str = path.unwrap().path().display().to_string();
-        let frame_number = &path_str[path_str.len() - 8..path_str.len()-4].to_string();
-        let output_str = format!("frame{}.bmp", frame_number);
+        let upath = path.unwrap().path();
+        if upath.is_dir() {
+            /* Increment anyway */
+            bar.inc();
+            continue;
+        }
+        let path_str = upath.display().to_string();
+        let file_stem = upath.file_stem().unwrap().to_str().unwrap().to_string();
+        bar.message(&format!("{} ", &file_stem)[..]);
+        let output_str = format!("{}_edgy.bmp", file_stem);
         process_frame(path_str, format!("{}/{}", output_dir, output_str), blur_modifier);
         bar.inc();
     }
@@ -97,5 +104,4 @@ fn main()
     } else {
         process_frame(input, output, blur_mod);
     }
-
 }
