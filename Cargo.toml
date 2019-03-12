@@ -2,7 +2,7 @@
 name = "edgy"
 description = "Apply Sobel edge detection to a given image or images."
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["dangreco <dan.greco@live.com>"]
 edition = "2018"
 repository = "https://github.com/dangreco/edgy"
