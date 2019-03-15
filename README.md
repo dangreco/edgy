@@ -37,7 +37,7 @@ OPTIONS:
 ![Detour Sign](https://raw.githubusercontent.com/dangreco/edgy/master/examples/DetourEx.jpg)
 
 # Performance
-Running this implementation on the same image but scaled down to various sizes, I charted the time it took to produce the final image (in milliseconds).
+Running this implementation on the same image but scaled down to various sizes, I charted the time it took to produce the final image (in seconds).
 
 ![Performance](https://raw.githubusercontent.com/dangreco/edgy/master/examples/Performance.jpg)
 
