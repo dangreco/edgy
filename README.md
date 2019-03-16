@@ -2,7 +2,7 @@
 <br/>
 
 [![Latest version](https://img.shields.io/crates/v/edgy.svg)](https://crates.io/crates/edgy)
-[![License](https://img.shields.io/crates/l/edgy.svg)]()
+[![License](https://img.shields.io/crates/l/edgy.svg)](https://github.com/dangreco/edgy/blob/master/LICENSE)
 
 A simple program to apply the Sobel edge detection operator to any given image or directory of images.
 
